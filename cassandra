@@ -12,3 +12,8 @@ Create keyspace
 CREATE KEYSPACE mobapp WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3}; 
 DESCRIBE KEYSPACE mobapp ; 
 use mobapp
+
+
+Create table (column family) 
+----------------------------
+CREATE TABLE appinfo (sno int,appName varchar , userName varchar  , gender varchar );
