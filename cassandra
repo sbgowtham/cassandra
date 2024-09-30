@@ -5,3 +5,9 @@ or
  wget https://archive.apache.org/dist/cassandra/4.1.6/apache-cassandra-4.1.6-bin.tar.gz
 
  tar -zxvf apache-cassandra-4.1.6-bin.tar.gz
+
+
+Create keyspace  
+CREATE KEYSPACE mobapp WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3}; 
+DESCRIBE KEYSPACE mobapp ; 
+use mobapp
