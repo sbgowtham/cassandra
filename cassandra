@@ -8,6 +8,7 @@ or
 
 
 Create keyspace  
+---------------
 CREATE KEYSPACE mobapp WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 3}; 
 DESCRIBE KEYSPACE mobapp ; 
 use mobapp
