@@ -3,3 +3,5 @@ wget https://dlcdn.apache.org/cassandra/4.1.6/apache-cassandra-4.1.6-bin.tar.gz
 or
 
  wget https://archive.apache.org/dist/cassandra/4.1.6/apache-cassandra-4.1.6-bin.tar.gz
+
+ tar -zxvf apache-cassandra-4.1.6-bin.tar.gz
