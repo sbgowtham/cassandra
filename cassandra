@@ -6,6 +6,12 @@ or
 
  tar -zxvf apache-cassandra-4.1.6-bin.tar.gz
 
+cd apache-cassandra-4.1.6
+bin/cassandra 
+
+-- Open new session 
+cd apache-cassandra-4.1.6
+bin/cqlsh
 
 Create keyspace  
 ---------------
